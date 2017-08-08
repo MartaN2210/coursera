@@ -5,6 +5,12 @@ body {
 	font-family: "Arila", sans-serif;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+
+
 #header-nav {
 	background-color: #95a7c4;
 	border-radius: 0;
@@ -60,7 +66,11 @@ button.navbar-toggle {
   font-size: 1.8em;
 }
 
-.container .jumbotron {
+.container .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
   border: 1px solid #051938;
   background-color: #fcfdff;
   text-align: justify;
@@ -70,5 +80,12 @@ button.navbar-toggle {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
 
-
+  .container .row {
+    margin: auto;
+    width: 80%;
+  }
+  }
+  
