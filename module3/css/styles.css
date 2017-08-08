@@ -1,0 +1,74 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: #e3ebf7;
+	font-family: "Arila", sans-serif;
+}
+
+#header-nav {
+	background-color: #95a7c4;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo {
+	font-size: 50px;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* FOOD, LLC */
+  color: #051938;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #e3ebf7;
+}
+
+.navbar-header {margin-bottom: 10px;}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #051938;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e3ebf7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.container .jumbotron {
+  border: 1px solid #051938;
+  background-color: #fcfdff;
+  text-align: justify;
+}
+#title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+
